@@ -38,7 +38,6 @@ class Home extends React.Component{
                         onChange={this.handleinput}
                         type="text" placeholder="search movies..."
                     />
-                    <button  className="drop-down">Dropdown</button>
                     <button onClick={this.handleSearch}className="search-btn">Search</button>
                     <Result result={this.state.result}/>
                 </div>

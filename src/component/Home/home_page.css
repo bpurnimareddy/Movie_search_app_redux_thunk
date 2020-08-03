@@ -1,7 +1,5 @@
 .home_page{
-    border:1px solid;
-    width:100%;
-    
+    width:100%; 
 }
 .input-box{
     text-align: center;
@@ -18,8 +16,8 @@
     
 }
 
-.search-btn,.drop-down{
-    background-color: rgb(250, 9, 9);
+.search-btn{
+    /*background-color: rgb(250, 9, 9);*/
     outline: none;
     border-radius:10px;
     width:7%;
