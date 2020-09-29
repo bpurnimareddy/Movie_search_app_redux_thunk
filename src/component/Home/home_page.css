@@ -1,5 +1,43 @@
 .home_page{
     width:100%; 
+    /*border:2px solid #b056e4*/
+    height:580px;
+}
+.nav-bar{
+    display:flex;
+    background-color: rgb(241, 235, 247);
+    
+    height:70px;
+    align-items:center;
+}
+.welcome-user{
+    color:purple;
+    font-weight:bold;
+    font-size:20px;
+}
+.profile-details{
+    width:130%;
+    border-radius: 7px;
+    background-color: rgb(238, 180, 238);
+    color:white;
+    size:5px;
+    border:none;
+    height:41px;
+    align-items: center;
+}
+.user{
+    font-size: 20px;
+    display: inline;
+    padding-left: 10%;
+    
+}
+
+#app-title-homePage{
+    font-weight: bold;
+    color:#7b12b8;
+    margin-left:20px;
+    font-size:40px;
+    font-style:italic;
 }
 .input-box{
     text-align: center;
@@ -7,19 +45,63 @@
 }
 .search-box{
     border-radius:10px;
-    width:30%;
+    border-color:#b056e4;
+    width:80%;
     height:25px;
+    color:#7021a1;
+    font-weight: bold;
 }
 .search-box:focus{
     border-radius:10px;
-    outline: none;
-    
+    outline: none;  
 }
 
 .search-btn{
     /*background-color: rgb(250, 9, 9);*/
+    margin-left:10px;
     outline: none;
-    border-radius:10px;
-    width:7%;
-    height:30px;
+    border-radius: 10px;
+    width: 9%;
+    height: 30px;
+    background-color:#b056e4;
+    color: white;
 }
+
+.dropdown{
+    position:relative;
+    display: inline-block;
+    margin-left: 80%;
+}
+
+.dropdown-menu{
+    font-size: 13px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-link{
+  color: black;
+  text-decoration: none;
+  display: block;
+  height: 30px;
+  align-items: center;
+  font-size: 17px;
+}
+.dropdown:hover .dropdown-menu
+{
+    border:1px solid rgb(245, 169, 245);
+    border-radius: 7px;
+    display:block;
+    
+}
+
+.dropdown-link:hover{
+    color: white;
+    background-color: rgb(238, 180, 238);
+    
+}
+
+/*.dropdown:hover .profile-details {background-color: #8212eb;}*/
+

@@ -1,14 +1,36 @@
 .result-box{
-    width:10%;
-}
-
-.poster{
     width:100%;
 }
+.card{
+    margin:3% 1%;
+    width:25%;
+    display:inline-block;
+    height:auto;
+    border:1px solid purple;
+    border-radius: 10px;
+    background-color:whitesmoke;     
+    box-shadow: 4px 4px rgb(214, 180, 214);
+}
+.poster{
+    width:100%;
+    height: 150px;
+    border-radius: 10px;
+}
 .title-name{
-    width:250px;
-    font-size: 70%;
-    text-align: left;
+    margin-top:30px;
+    width:100%;
+    font-size: 80%;
     font-weight:bold;
-    color:rgb(40, 40, 250);
+    text-align: center;
+    color:purple
+   
+}
+.fav-btn{
+    border:none;
+    padding-left: 20%;
+    background-color: none;
+}
+
+.fav-btn:focus{
+    outline: none;
 }

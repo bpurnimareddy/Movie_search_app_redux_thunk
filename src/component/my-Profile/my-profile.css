@@ -1,0 +1,35 @@
+.my-profile-box{
+    /*border :1px solid ;*/
+    width:50%;
+    height:350px;
+    background-color: rgb(229, 194, 229);
+    border-radius: 10px;
+    margin:2% 2%;
+}
+
+.profile-details-box{
+    /*border:1px solid black;*/
+    width:70%;
+    height:300px;
+    margin:4% 10%;
+    padding:3% 3%;
+    display: flex;
+}
+.vertical-line{
+    border-left:1px solid rgb(196, 80, 231);
+    height:300px;
+    margin-left:25%;
+}
+.profile-label{
+    padding:2% 7%;
+    font-weight:bold;
+}
+.profile-label{
+    color:purple;
+}
+.fav-link{
+    padding-left:7%
+}
+.main{
+    width:100%;
+}
